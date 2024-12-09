@@ -1,0 +1,182 @@
+.nav-item{
+    margin-left: 30px;
+    font-weight: bold;
+}
+.navbar-nav{
+    margin-left: 260px;
+
+}
+@media(max-width:667px)
+{
+    .navbar-nav{
+        margin-left: 0px;
+    }
+    .nav-item{
+        margin-left: 10px;
+        font-weight: bold;
+        margin-bottom: 15px;
+    }
+    .first_row
+    {
+        display: none;
+    } 
+    .m_top{
+        margin-top: 0px;
+    }
+    .m_bottom{
+        margin-bottom: 0px;
+    }
+    .card_body{
+        margin-top: 40px;
+    }
+    .safari img{
+        width: 100%;  
+    }
+    .choice .card{
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+   
+}
+.icons
+{
+    margin-top: 20px;
+}
+.f_list{
+    list-style-type: none;
+}
+.background{
+    background-image: url('https://c4.wallpaperflare.com/wallpaper/936/809/111/ford-in-jungle-wallpaper-preview.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    opacity: 0.9; 
+}
+.m_top{
+    margin-top: 170px;
+}
+.m_bottom{
+    margin-bottom: 170px;
+}
+.input_h{
+    height: 53px;
+}
+.card-img-top {
+    transform: translateY(0);
+    transition: transform 0.3s ease-in-out;
+    height: 210px;
+  }
+  
+.card-img-top:hover {
+    transform: translateY(10px);
+  }
+a{
+    text-decoration: none;
+}
+.counter_bg{
+    background-image: url('https://pasalkartravels.com/wp-content/uploads/2021/02/03-slider-pasalkar-tours-travels-car-cab-rent-online-booking-pune.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    opacity: 0.9;
+}
+.counter_size{
+    font-size: 60px;
+}
+.ab_bread
+{
+    background-image: url('https://shubhyatratravel.com/wp-content/uploads/2023/12/panoramic-shot-of-man-opening-car-door-in-car-showroom.jpg');
+    background-size: cover;
+    z-index: 1;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+}
+.contact_bread{
+    background-image: url('https://shubhyatratravel.com/wp-content/uploads/2023/12/at-a-car-dealership-buying-a-car-1.jpg');
+    background-size: cover;
+    z-index: 1;
+    background-position:center;
+    background-repeat: no-repeat;
+    position: relative;
+}
+.contact_bread::before{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    content: "";
+    background-color: rgba(0, 0, 0, 0.7);
+    z-index: -1;
+    top: 0%;
+    left: 0%;
+
+}
+.breadnav{
+    --bs-breadcrumb-divider:'>';
+}
+.breadnav .breadcrumb-item+.breadcrumb-item::before {
+    color: white;
+  }
+.ab_bread::before{
+    width: 100%;
+    height: 100%;
+    top: 0%;
+    left: 0%;
+    position:absolute;
+    content: "";
+    background-color: rgba(0, 0, 0, 0.7);
+    z-index: -1;
+}  
+.why_us i{
+    font-size: 60px;
+}
+.offer_bg{
+    background-image: url('https://shubhyatratravel.com/wp-content/uploads/2023/12/car-dashboard-modern-luxury-interior-steering-wheel.jpg');
+    background-size: cover;
+    z-index: 1;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative; 
+}
+.offer_bg::before{
+    width: 100%;
+    height: 100%;
+    top: 0%;
+    left: 0%;
+    position:absolute; 
+    content: "";
+    background-color: rgba(0, 0, 0, 0.7);
+    z-index: -1;  
+}
+.bg{
+    background-image: url('https://shubhyatratravel.com/wp-content/uploads/2023/12/classic-cars.jpg');
+    background-size: cover;
+    z-index: 1;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+}
+.bg::before{
+    width: 100%;
+    height: 100%;
+    top: 0%;
+    left: 0%;
+    position:absolute; 
+    content: "";
+    background-color: rgba(0, 0, 0, 0.8);
+    z-index: -1;  
+}
+.contact hr{
+    width: 70px;
+    color: #febb3e;
+    border-width: 3px;
+    border-style: solid;
+    opacity:1.0; 
+}
+.nav .nav-link.active{
+   text-decoration: underline;
+   text-decoration-thickness: 4px;
+   text-underline-offset:7px;
+}
